@@ -5,6 +5,7 @@ body{
     font-size: 25px;
 }
 
+
 #question-container{
     margin: auto;
     width: 50%;
@@ -41,4 +42,16 @@ body{
     right: 25%;
 }
 
+.correct{
+    color: green;
+    background-image: url('../images/check-mark-1292787_1280.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
+.wrong{
+    color: red;
+    background-image: url('../images/abort-146096.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}

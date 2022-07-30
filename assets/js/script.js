@@ -55,9 +55,8 @@ function resetState() {
 }
 
 function selectAnswer(e) {
-  const selectedButton = e.target
-  const correct = selectedButton.dataset.correct
-  setStatusClass(document.body, correct)
+  const selectedButton = e.target;
+  const correct = selectedButton.dataset.correct;
   Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct)
   })
@@ -98,10 +97,10 @@ const questions = [
     question: 'What is this animal?',
     img:  "url('assets/images/panda_bear.jpg')",
     answers: [
-      { text: 'Rabbit', correct: true },
-      { text: 'Dog', correct: true },
+      { text: 'Rabbit', correct: false },
+      { text: 'Dog', correct: false },
       { text: 'Panda Bear', correct: true },
-      { text: 'Dinosaurus', correct: true }
+      { text: 'Dinosaur', correct: false }
     ]
   },
   {
