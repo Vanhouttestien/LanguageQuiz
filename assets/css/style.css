@@ -11,13 +11,19 @@ body{
     background-repeat: no-repeat;
 }
 
+#logo{
+    color:white; 
+    position: fixed;
+    padding: 1.5% 3%;
+    font-size: 44px; 
+}
+
 /*nature quiz title*/
 h1{
     width: 100%;
     background-color: rgba(0,0,9,0.7);
     color: white; 
-    text-align: center;
-    padding: 2%;
+    padding: 2% 9%;
 }
 /*Instructions*/
 #instructions, #score{
@@ -59,7 +65,7 @@ h1{
 #question{
     width: 100%;
     padding: 4%;
-    font-weight: 500;
+    font-weight: 900;
 }
 /* question*/ 
 #answer-buttons button{
@@ -67,7 +73,7 @@ h1{
     text-decoration: none;
     font-size: inherit;
     background-color: white;
-    padding-left: 10%; 
+    padding: 5% 0% 0% 20%; 
     display: block;
     width: 100%;
     text-align: left;
@@ -122,7 +128,7 @@ h1{
     color: white; 
     font-size: 25px;
     position: absolute;
-    top:85%;
+    top:87%;
     right: 50%;
     transform: translate(50%,-50%);    
 }

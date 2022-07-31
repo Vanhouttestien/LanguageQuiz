@@ -1,4 +1,5 @@
 // code from Web Dev Simplified via https://www.youtube.com/watch?v=riDzcEQbX6k with own adaptations
+
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
@@ -105,22 +106,22 @@ let endScore=parseInt(document.getElementById("score-number").innerText)
 let feedback= document.getElementById("feedback")
 scoreBox.classList.remove("hide")
 if(endScore<1){feedback.innerText="Hmm... you may need to practice a bit more."}
-else if  (endScore<2){feedback.innerText="Keep on Learning."} 
-else if  (endScore<3){feedback.innerText="With some excercise you can become a expert!"} 
-else if  (endScore<4){feedback.innerText="This is a good beginning...keep on practicing."} 
-else if  (endScore<5){feedback.innerText="You are on the right pad... with some excercise you will become a true biologist."} 
-else if  (endScore<6){feedback.innerText="Great work!"} 
-else if  (endScore<7){feedback.innerText="Very good!"} 
-else if  (endScore<8){feedback.innerText="You did a great job!"} 
-else if  (endScore<9){feedback.innerText="Wow... amazing! Almost Perfect!"} 
-else if  (endScore<10){feedback.innerText="Wow...perfect!...You are a true biologist!"} 
+else if  (endScore<=2){feedback.innerText="Keep on Learning."} 
+else if  (endScore=3){feedback.innerText="With some excercise you can become a expert!"} 
+else if  (endScore=4){feedback.innerText="This is a good beginning...keep on practicing."} 
+else if  (endScore=5){feedback.innerText="You are on the right pad... with some excercise you will become a true biologist."} 
+else if  (endScore=6){feedback.innerText="Great work!"} 
+else if  (endScore=7){feedback.innerText="Very good!"} 
+else if  (endScore=8){feedback.innerText="You did a great job!"} 
+else if  (endScore=9){feedback.innerText="Wow... amazing! Almost Perfect!"} 
+else if  (endScore=10){feedback.innerText="Wow...perfect!...You are a true biologist!"} 
 else{}
 }
 
 //quiz Questions
 const questions = [
   {
-    question: 'Question: What is this animal?',
+    question: 'Which animal is this?',
     img: "url('assets/images/fox.jpg')",
     answers: [{
         text: 'Arctic rabbit',
@@ -140,7 +141,7 @@ const questions = [
       }
     ]},
   {
-    question: 'Question: What is this animal?',
+    question: 'Which animal is this?',
     img: "url('assets/images/polarbear.jpg')",
     answers: [{
         text: 'Husky',
@@ -160,7 +161,7 @@ const questions = [
       }
     ]},
   {
-    question: 'Question: What is this animal?',
+    question: 'Which animal is this?',
     img: "url('assets/images/reindeer.jpg')",
     answers: [{
         text: 'Moose',
@@ -179,7 +180,7 @@ const questions = [
         correct: false
       }
     ]},
-    {question: 'Question: What is this animal?',
+    {question: 'Which animal is this?',
     img: "url('assets/images/penguin.jpg')",
     answers: [{
         text: 'Flamingo',
@@ -198,7 +199,7 @@ const questions = [
         correct: true
       }
     ]}, 
-    {question: 'Question: Penguins live only on the north pole?',
+    {question: 'Penguins live only on the north pole?',
     img: "url('assets/images/penguin2.jpg')",
     answers: [{
         text: 'True, they live on the north pole.',
@@ -210,19 +211,19 @@ const questions = [
       }
     ]},
     {
-      question: 'Question: Ice bears are friendly animals.',
+      question: 'Are polar bears friendly animals.',
       img:  "url('assets/images/polarbearbaby.jpg')",
     answers: [{
-        text: 'True, they are friendly.',
+        text: 'Yes, they are friendly.',
         correct: false
       },
       {
-        text: 'False, no they are dangerous.',
+        text: 'No, they are dangerous.',
         correct: true
       }
     ]
   },
-    {question: 'Question: what does arctic mean?',
+    {question: 'What does arctic mean?',
     img: "",
     answers: [{
         text: 'The polar region on earth',
@@ -235,6 +236,49 @@ const questions = [
       {
         text: 'A lot of snow',
         correct: false
+      }
+    ]},
+    
+    {question: 'Which famous person lives on the north pole? ',
+    img: "",
+    answers: [{
+        text: 'Lady gaga',
+        correct: false
+      },
+      {
+        text: 'The lion king',
+        correct: false
+      }, 
+      {
+        text: 'Santa Claus',
+        correct: true
+      }
+    ]},
+    
+    {question: 'What was the coldest tempurature ever on earth? ',
+    img: "",
+    answers: [{
+        text: '-47.7°C ',
+        correct: false
+      },
+      {
+        text: '-89.2°C',
+        correct: true
+      }, 
+      {
+        text: '-67,9',
+        correct: false
+      }
+    ]},
+    {question: 'Are reindeer friendly? ',
+    img: "",
+    answers: [{
+        text: 'no, they are agressive',
+        correct: false
+      },
+      {
+        text: 'yes, they are friendly',
+        correct: true
       }
     ]}
 ]
