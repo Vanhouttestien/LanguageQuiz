@@ -20,7 +20,7 @@ h1{
     padding: 2%;
 }
 /*Instructions*/
-#instructions{
+#instructions, #score{
     margin: auto;
     width: 30%;
     height: 30%;
@@ -135,6 +135,12 @@ h1{
     background-image: url('../images/abort-146096.png');
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+#score{
+    background-color: white;
+    font-size: 24px;
+;
 }
 
 /*for medium screen sizes from 700px wide and down*/
