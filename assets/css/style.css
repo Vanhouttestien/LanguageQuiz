@@ -1,17 +1,17 @@
 
-
 body{
     margin: 0;
     padding: Opx;
     color:black; 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     background-image: url('../images/nature-wallpaper-3622519_1920.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+/*nature quiz title*/
 h1{
     width: 100%;
     background-color: rgba(0,0,9,0.7);
@@ -20,6 +20,66 @@ h1{
     padding: 2%;
 }
 
+/* questions + answers and images */ 
+#question-container{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    border: 3px solid ;
+    padding: 3% 5%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* question + answers*/ 
+#questionanswers{
+    flex: 1;
+    translate: (50%,-50%);
+}
+
+#question{
+    width: 100%;
+    padding: 4%;
+}
+/* question*/ 
+#answer-buttons button{
+    border: none;
+    text-decoration: none;
+    font-size: inherit;
+    background-color: white;
+    padding-left: 10%; 
+    display: block;
+    width: 100%;
+}
+
+:hover.btn{
+    font-weight: 700;
+   text-decoration: line-through;
+}
+
+/* .hide {
+    display: none;
+  }  */
+
+/* quiz images*/ 
+
+#image-quiz{
+    flex: 1;
+}
+
+.img{
+    height: 70%;
+    width: auto;
+    background-size:cover;
+    background-position: center; 
+    margin: auto;
+}
+
+/*start button*/
 #start-btn{
     width: fit-content;
     border: none;
@@ -27,9 +87,10 @@ h1{
     background: none;
     background-color: rgba(0,0,9,0.7);
     color: white; 
-    font-size: 25px;
+    font-size: 25px;    
 }
 
+/* next button*/
 #next-btn{
     width: fit-content;
     border: none;
@@ -42,43 +103,7 @@ h1{
     right:42%;
 }
 
-#question-container{
-    margin: auto;
-    width: 50%;
-    height: 40%;
-    border: 3px solid ;
-    padding: 5%;
-    background-color: white;
-}
-
-#answer-buttons button{
-    display: block;
-    border: none;
-    text-decoration: none;
-    font-size: inherit;
-    background-color: white;
-    padding-left: 5%;
-}
-
-:hover.btn{
-    font-weight: 700;
-   text-decoration: line-through;
-}
-
-.hide {
-    display: none;
-  } 
-
-.img{
-    height: 300px;
-    width: 250px;
-    background-size:cover;
-    background-position: center;
-    position:absolute; 
-    top:21%;
-    right: 22%;
-}
-
+/* if answer is correct*/ 
 .correct{
     color: green;
     background-image: url('../images/check-mark-1292787_1280.png');
@@ -86,9 +111,31 @@ h1{
     background-repeat: no-repeat;
 }
 
+/*if answer is wrong*/ 
+
 .wrong{
     color: red;
     background-image: url('../images/abort-146096.png');
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+/*for medium screen sizes from 700px wide and down*/
+
+@media screen and (max-width: 700px) {
+    #question-container{
+        width: 80%;
+        height: 90%;
+        display: block;
+        
+    }
+    
+    #image-quiz{
+        flex: 1;
+    }
+
+    #questionanswers{
+        margin: 10%;
+    }
+    
 }
