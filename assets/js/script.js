@@ -28,6 +28,7 @@ function startGame() {
   startButton.classList.add('hide');
   instructions.classList.add('hide');
   scoreBox.classList.add("hide")
+  document.getElementById("score-number").innerText = 0;
   shuffledQuestions = questions.sort(() => Math.random() - .5);
   currentQuestionIndex = 0;
   questionContainerElement.classList.remove('hide');
@@ -117,80 +118,123 @@ else{}
 }
 
 //quiz Questions
-const questions = [{
-    question: 'What is this animal?',
-    img: "url('assets/images/wolf.jpg')",
+const questions = [
+  {
+    question: 'Question: What is this animal?',
+    img: "url('assets/images/fox.jpg')",
     answers: [{
-        text: 'Wolf',
+        text: 'Arctic rabbit',
+        correct: false
+      },
+      {
+        text: 'Artic dog',
+        correct: false
+      },
+      {
+        text: 'Arctic fox',
         correct: true
       },
       {
-        text: 'Sheep',
-        correct: false
-      },
-      {
-        text: 'Pig',
-        correct: false
-      },
-      {
-        text: 'Cow',
+        text: 'Arctic rat',
         correct: false
       }
-    ],
-  },
+    ]},
   {
-    question: 'What is this animal?',
-    img: "url('assets/images/panda_bear.jpg')",
+    question: 'Question: What is this animal?',
+    img: "url('assets/images/polarbear.jpg')",
     answers: [{
-        text: 'Rabbit',
+        text: 'Husky',
         correct: false
       },
+      {
+        text: 'Polar bear',
+        correct: true
+      },
+      {
+        text: 'Grizzly bear',
+        correct: false
+      },
+      {
+        text: 'Panda bear',
+        correct: false
+      }
+    ]},
+  {
+    question: 'Question: What is this animal?',
+    img: "url('assets/images/reindeer.jpg')",
+    answers: [{
+        text: 'Moose',
+        correct: false
+      },
+      {
+        text: 'Reindeer',
+        correct: true
+      }, 
       {
         text: 'Dog',
         correct: false
       },
       {
-        text: 'Panda Bear',
-        correct: true
+        text: 'Deer',
+        correct: false
+      }
+    ]},
+    {question: 'Question: What is this animal?',
+    img: "url('assets/images/penguin.jpg')",
+    answers: [{
+        text: 'Flamingo',
+        correct: false
       },
       {
-        text: 'Dinosaur',
+        text: 'Duck',
         correct: false
+      },
+      {
+        text: 'Owl',
+        correct: false
+      },
+      {
+        text: 'penguin',
+        correct: true
+      }
+    ]}, 
+    {question: 'Question: Penguins live only on the north pole?',
+    img: "url('assets/images/penguin2.jpg')",
+    answers: [{
+        text: 'True, they live on the north pole.',
+        correct: false
+      },
+      {
+        text: 'False, they live on the south pole.',
+        correct: true
+      }
+    ]},
+    {
+      question: 'Question: Ice bears are friendly animals.',
+      img:  "url('assets/images/polarbearbaby.jpg')",
+    answers: [{
+        text: 'True, they are friendly.',
+        correct: false
+      },
+      {
+        text: 'False, no they are dangerous.',
+        correct: true
       }
     ]
   },
-  {
-    question: 'What is this animal?',
-    img: "url('assets/images/rabbit.jpg')",
+    {question: 'Question: what does arctic mean?',
+    img: "",
     answers: [{
-        text: 'Cat',
-        correct: false
-      },
-      {
-        text: 'Rabbit',
+        text: 'The polar region on earth',
         correct: true
       },
       {
-        text: 'Fish',
+        text: 'The artic animals',
         correct: false
-      },
+      }, 
       {
-        text: 'Ox',
+        text: 'A lot of snow',
         correct: false
       }
-    ]
-  },
-  {
-    question: 'What is this animal?',
-    img: "url('assets/images/wolf.jpg')",
-    answers: [{
-        text: '6',
-        correct: false
-      },
-      {
-        text: '8',
-        correct: true
-      }
-    ]
-  }
+    ]}
 ]
