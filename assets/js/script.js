@@ -105,8 +105,7 @@ function feedback(){
 let endScore=parseInt(document.getElementById("score-number").innerText)
 let feedback= document.getElementById("feedback")
 scoreBox.classList.remove("hide")
-if(endScore=1){feedback.innerText="Hmm... you may need to practice a bit more."}
-else if  (endScore=2){feedback.innerText="Keep on Learning."} 
+if(endScore<=2){feedback.innerText="Hmm... you may need to practice a bit more."}
 else if  (endScore=3){feedback.innerText="With some excercise you can become a arctic expert!"} 
 else if  (endScore=4){feedback.innerText="This is a good beginning...keep on practicing."} 
 else if  (endScore=5){feedback.innerText="You are on the right pad... with some excercise you will become a true arctic expert."} 
