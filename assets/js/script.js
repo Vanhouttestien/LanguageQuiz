@@ -198,14 +198,14 @@ const questions = [
         correct: true
       }
     ]}, 
-    {question: 'Live penguins on the north pole?',
+    {question: 'Live penguins on the North Pole?',
     img: "url('assets/images/penguin2.jpg')",
     answers: [{
-        text: 'Yes, they live on the north pole.',
+        text: 'Yes, they live on the North Pole.',
         correct: false
       },
       {
-        text: 'No, they live on the south pole.',
+        text: 'No, they live on the South Pole.',
         correct: true
       }
     ]},
@@ -238,14 +238,14 @@ const questions = [
       }
     ]},
     
-    {question: 'Which famous person lives on the north pole? ',
+    {question: 'Which famous person lives on the North Pole? ',
     img: "url('assets/images/christmas.jpg')",
     answers: [{
-        text: 'Lady gaga',
+        text: 'Lady Gaga',
         correct: false
       },
       {
-        text: 'The lion king',
+        text: 'Aladdin',
         correct: false
       }, 
       {
