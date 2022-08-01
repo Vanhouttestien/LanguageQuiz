@@ -199,14 +199,14 @@ const questions = [
         correct: true
       }
     ]}, 
-    {question: 'Penguins live only on the north pole?',
+    {question: 'Live penguins on the north pole?',
     img: "url('assets/images/penguin2.jpg')",
     answers: [{
-        text: 'True, they live on the north pole.',
+        text: 'Yes, they live on the north pole.',
         correct: false
       },
       {
-        text: 'False, they live on the south pole.',
+        text: 'No, they live on the south pole.',
         correct: true
       }
     ]},
@@ -230,7 +230,7 @@ const questions = [
         correct: true
       },
       {
-        text: 'The artic animals',
+        text: 'The arctic animals',
         correct: false
       }, 
       {
@@ -273,11 +273,11 @@ const questions = [
     {question: 'Are reindeer friendly? ',
     img: "",
     answers: [{
-        text: 'no, they are agressive.',
+        text: 'No, they are agressive.',
         correct: false
       },
       {
-        text: 'yes, they are friendly.',
+        text: 'Yes, they are friendly.',
         correct: true
       }
     ]}
