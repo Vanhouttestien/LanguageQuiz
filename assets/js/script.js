@@ -195,7 +195,7 @@ const questions = [
         correct: false
       },
       {
-        text: 'penguin',
+        text: 'Penguin',
         correct: true
       }
     ]}, 
@@ -240,7 +240,7 @@ const questions = [
     ]},
     
     {question: 'Which famous person lives on the north pole? ',
-    img: "",
+    img: "url('assets/images/christmas.jpg')",
     answers: [{
         text: 'Lady gaga',
         correct: false
@@ -273,11 +273,11 @@ const questions = [
     {question: 'Are reindeer friendly? ',
     img: "",
     answers: [{
-        text: 'no, they are agressive',
+        text: 'no, they are agressive.',
         correct: false
       },
       {
-        text: 'yes, they are friendly',
+        text: 'yes, they are friendly.',
         correct: true
       }
     ]}
