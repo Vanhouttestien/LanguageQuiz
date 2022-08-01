@@ -31,8 +31,13 @@ h1 {
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%);
+    text-align: center;
+    vertical-align: middle;
 }
 
+#reindeer{
+    height: 80px;
+}
 /* questions + answers and images */
 #question-container {
     margin: auto;
