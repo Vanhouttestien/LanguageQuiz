@@ -145,6 +145,10 @@ h1 {
     background-repeat: no-repeat;
 }
 
+i{
+    padding-right: 3%;
+}
+
 /*if answer is wrong*/
 
 .wrong {

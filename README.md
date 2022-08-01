@@ -7,5 +7,7 @@ arctic icemontain: Image by 358611 from Pixabay https://pixabay.com/photos/icebe
 pinguin2: Image by Edgar Winkler from Pixabay https://pixabay.com/photos/penguin-animal-bird-wildlife-zoo-2555024/
 polarbear and baby: Image by Ria Sopala from Pixabay  https://pixabay.com/photos/polar-bear-infant-child-girl-teddy-6819212/ 
 Houses in snow  Image by JaymzArt from Pixabay https://pixabay.com/illustrations/christmas-tree-gifts-snowman-4703449/
+Reindeer silhouette: Image by Clker-Free-Vector-Images from Pixabay  https://pixabay.com/vectors/reindeer-animal-pole-north-48519/
 
+questions
 https://wmo.asu.edu/content/world-lowest-temperature
