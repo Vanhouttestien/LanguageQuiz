@@ -105,16 +105,16 @@ function feedback(){
 let endScore=parseInt(document.getElementById("score-number").innerText)
 let feedback= document.getElementById("feedback")
 scoreBox.classList.remove("hide")
-if(endScore<1){feedback.innerText="Hmm... you may need to practice a bit more."}
-else if  (endScore<=2){feedback.innerText="Keep on Learning."} 
-else if  (endScore=3){feedback.innerText="With some excercise you can become a expert!"} 
+if(endScore=1){feedback.innerText="Hmm... you may need to practice a bit more."}
+else if  (endScore=2){feedback.innerText="Keep on Learning."} 
+else if  (endScore=3){feedback.innerText="With some excercise you can become a arctic expert!"} 
 else if  (endScore=4){feedback.innerText="This is a good beginning...keep on practicing."} 
-else if  (endScore=5){feedback.innerText="You are on the right pad... with some excercise you will become a true biologist."} 
+else if  (endScore=5){feedback.innerText="You are on the right pad... with some excercise you will become a true arctic expert."} 
 else if  (endScore=6){feedback.innerText="Great work!"} 
 else if  (endScore=7){feedback.innerText="Very good!"} 
 else if  (endScore=8){feedback.innerText="You did a great job!"} 
 else if  (endScore=9){feedback.innerText="Wow... amazing! Almost Perfect!"} 
-else if  (endScore=10){feedback.innerText="Wow...perfect!...You are a true biologist!"} 
+else if  (endScore=10){feedback.innerText="Wow...perfect!...You are a true arctic expert!"} 
 else{}
 }
 
