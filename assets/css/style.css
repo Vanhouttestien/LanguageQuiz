@@ -98,12 +98,13 @@ h1 {
 }
 
 .img {
-    height: 50%;
+    height: 13rem;
     width: auto;
     background-size: contain;
     background-position: center;
     margin: auto;
     background-repeat: no-repeat;
+    z-index: 100;
 }
 
 /*start button*/
