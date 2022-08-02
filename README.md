@@ -25,23 +25,23 @@ With the current climate change the face of the artic is changing rapidly. This 
 
 ### Design 
 
-For the design the choice is made for a 
+For the design there was chosen for a colourful background with a more sober layout to balans it. This keeps it playful but also accesible.  
 
 1. Images
 
-background image 
+To support the topic of the quiz a image of the artic and the aurora borealis was chosen as background. 
 
-quiz image 
+Some questions are accompagnied by images as part of the question or for decorative purpose. 
 
 
 2. Colour Scheme
 
-black and white to provide optimal accesibilty 
+Beacuse of the colourful backgroundimage the other parts of the design where kept simple. The colours black and white where chosen for this. They also provide optimal accesibilty. 
 
 
 3. Typography
 
-
+The font chosen is Arial and Helvetica as back-up. These fonts are easy to read and provide good accesibility. They are also simple in design and provide a more sober contrast to the colorful backgroundimage. 
 
 ## Technologies used 
 ### languages
@@ -57,33 +57,27 @@ black and white to provide optimal accesibilty
 
 ## Features
 ### Instructions
-The website is a single page website. 
+The first visible elements when you load the page is some explination. So you know what it is about.   
 
-<img src="assets/images/nav_bar.jpg" alt="picture of navigation bar" width="600px">
+<img src="assets/images/startpage.jpg" alt="picture explenation box" width="600px">
 
 
 ### Questions
-The Hero image tries to create a mystical and creative mood. We want to show the image of how books spark our imagination. 
+When you have pressed start you are presented with the question and possible answers. Some questions are accompagnied with a image on the right (or underneath on a smaller device). 
 
-On the hero image you also find "kids book swap club Stockholm" so you know what we do and we are located in Stockholm. 
-Under this you also get the text "find books in your mother tongue" so you know it is meant for a expat public. 
-
-<img src="assets/images/heroimage.jpg" alt="picture of Hero image with title" width="600px">
+<img src="assets/images/question.jpg" alt="picture question" width="600px">
 
 
 ### Questions with direct feedback 
-In this section of our webpage we shortly describe why we think reading is important and how we want to support this. We also provide the basic information about our events. 
+When you have chosen a answer you get instant feedback wich answers are wrong and wich correct. Also the next button appears to go to the next question. 
 
-The text is supported by a picture of a child reading to support the image off reading as a fun and constructive activity.  
-
-<img src="assets/images/what_we_do.jpg" alt="picture of what we do section" width="600px">
+<img src="assets/images/questionfeedbackjpg" alt="picture of answers with wrong and right symbols" width="600px">
 
 
 ### Feedback en score
-In this section we show the upcoming events with the group, place, date and time. 
+In this box the score is presented with some short feedback. 
 
-<img src="assets/images/events_1.jpg" alt="picture of upcoming events1" width="600px">
-<img src="assets/images/events_2.jpg" alt="picture of upcoming events2" width="600px">
+<img src="assets/images/feedback.jpg" alt="picture of score and feedback" width="600px">
 
 
 
@@ -93,11 +87,11 @@ In this section we show the upcoming events with the group, place, date and time
 
 |Goal| execution|
 |--------------------------------------------------------------------------------------|-------------------------------------------------------|
-|The users should learn more about the arctic| |
-|The user should have good insight in the content when viewing the startpage| |
-|The user should have an intutive and easy accesible buttons to start the quiz| |
-|The user should receive direct feedback on the answer| |
-|The user should have the possiblity to restart the quiz and try to improve| |
+|The users should learn more about the arctic| The questions provide some information|
+|The user should have good insight in the content when viewing the startpage| Established with instuctionbox and backgroundimage|
+|The user should have an intutive and easy accesible buttons to start the quiz| Big start and next bottun that are easily visible |
+|The user should receive direct feedback on the answer| Direct right and wrong symbols appear when you clicked your answer |
+|The user should have the possiblity to restart the quiz and try to improve| Restart button and questions are randomized|
  
 ## manual code testing
 ### responsiveness
@@ -121,21 +115,30 @@ The website was tested in different browsers.
 No errors where found by the official W3C validator
 
 
-<img src="assets/images/html_validation.jpg" alt="picture of W3C validator results" width="600px">
+<img src="assets/images/htmlval.jpg" alt="picture of W3C validator results" width="600px">
 
 
 2. CSS
 No errors where found by the official Jigsaw validator
 
-<img src="assets/images/css_validation.jpg" alt="picture of Jigsaw validator results" width="600px">
+<img src="assets/images/cssval.jpg" alt="picture of Jigsaw validator results" width="600px">
 
+3. JSHint 
+No errors where found by the official JSHint validator
+
+<img src="assets/images/jsval.jpg" alt="picture of Jigsaw validator results" width="600px">
+
+4. Lighthouse
+Website was succesful in the lighthouse testing
+
+<img src="assets/images/lighthouseval.jpg" alt="picture of Jigsaw validator results" width="600px">
 
 ### Fixed bugs 
-- Website had a gap on the right which was visible with a smaller screen size. This was fixed by removing padding from a section. 
-- Changes in font and font-sizes where fixed by target the text specifically in CSS. 
+- The right and wrong images where to big when the answer had more lines because they are implemented by using them as background. This was especially problematic on smaller devices. The symbols came above the text. Fixed by fixing the background size to 28px.   
+- Backgroundimage didn't cover the whole page. this was solved by adding a min-height of 100vh and hide the overflow. 
 
 ### Unfixed bugs
-The navigation bar seems to be affected by the animation. The cause of this isn't found yet. 
+- by fixing the measurements of the right and wrong symbol they sometimes are a bit to high up. 
 
 ## Deployment 
 This site was deployed by GitHub pages. 
@@ -145,32 +148,34 @@ Afterwards you go to the subsection pages.
 Next go to the source section and select Branch:main. 
 Press save and then you receive a link.  
 
-The link can be found here: https://vanhouttestien.github.io/book_swap/
+The link can be found here: https://vanhouttestien.github.io/LanguageQuiz/
 
 ## Credits
 
 ### Images
--  	Image used for heroimage [Image](https://pixabay.com/illustrations/book-dog-fairy-tales-child-kid-794978/) by 0fjd125gk87 from Pixabay 
--	Image used in the 'what we do' section [Image](https://pixabay.com/photos/baby-read-play-reading-playing-5953965/)  by Катерина Кучеренко from Pixabay 
--   Image adapted and used as a background in the 'upcoming events section' [Image](https://pixabay.com/photos/art-watercolors-arts-and-crafts-1851483/by)  Pexels from Pixabay 
+- polar bear: Image by 358611 from [Pixabay](https://pixabay.com/photos/polar-bear-bear-sea-bear-white-404314/)
+- artic fox Image by dclobes from [Pixabay](https://pixabay.com/photos/artic-fox-mammal-wildlife-2641974/)
+- pinguin: Image by Siggy Nowak from [Pixabay](https://pixabay.com/photos/penguins-emperor-penguins-baby-429134/)
+- reindeer: Image by Decokon from [Pixabay](https://pixabay.com/photos/svalbard-reindeer-reindeer-svalbard-2144689/)
+- aurora borealis: Image by Noel Bauza from [Pixabay](https://pixabay.com/photos/adventure-aurora-northern-lights-1573331/)
+- arctic icemontain: Image by 358611 from [Pixabay](https://pixabay.com/photos/iceberg-antarctica-polar-ice-sea-404966/)
+- pinguin 2: Image by Edgar Winkler from [Pixabay](https://pixabay.com/photos/penguin-animal-bird-wildlife-zoo-2555024/)
+- polarbear and baby: Image by Ria Sopala from [Pixabay](https://pixabay.com/photos/polar-bear-infant-child-girl-teddy-6819212/)
+- Houses in snow  Image by JaymzArt from [Pixabay](https://pixabay.com/illustrations/christmas-tree-gifts-snowman-4703449/)
+- Reindeer silhouette: Image by Clker-Free-Vector-Images from [Pixabay](https://pixabay.com/vectors/reindeer-animal-pole-north-48519/)
+- wrong symbole: Image by OpenClipart-Vectors from [Pixabay](https://pixabay.com/vectors/abort-delete-no-cancel-locked-146096/) 
+- correct symbole:Image by OpenClipart-Vectors from [Pixabay](https://pixabay.com/vectors/check-mark-tick-mark-check-correct-1292787/)
 
 ### code 
+- The code used was taken from a [youtube tutorial from web dev simplified](https://www.youtube.com/watch?v=riDzcEQbX6k) with some adaptations
 - On the website of the  [w3schools](https://www.w3schools.com/) I found a lot of information and codes for a variety of problems encountered
-- Varies parts of the website were inspired by the love math website from Code institute 
+- Varies parts of the website were inspired by the love math walkthrough project from Code institute 
 
-polar bear: Image by 358611 from Pixabay  https://pixabay.com/photos/polar-bear-bear-sea-bear-white-404314/
-artic fox Image by dclobes from Pixabay  https://pixabay.com/photos/artic-fox-mammal-wildlife-2641974/
-pinguin: Image by Siggy Nowak from Pixabay  https://pixabay.com/photos/penguins-emperor-penguins-baby-429134/
-reindeer: Image by Decokon from Pixabay https://pixabay.com/photos/svalbard-reindeer-reindeer-svalbard-2144689/
-aurora borealis: Image by Noel Bauza from Pixabay https://pixabay.com/photos/adventure-aurora-northern-lights-1573331/
-arctic icemontain: Image by 358611 from Pixabay https://pixabay.com/photos/iceberg-antarctica-polar-ice-sea-404966/
-pinguin2: Image by Edgar Winkler from Pixabay https://pixabay.com/photos/penguin-animal-bird-wildlife-zoo-2555024/
-polarbear and baby: Image by Ria Sopala from Pixabay  https://pixabay.com/photos/polar-bear-infant-child-girl-teddy-6819212/ 
-Houses in snow  Image by JaymzArt from Pixabay https://pixabay.com/illustrations/christmas-tree-gifts-snowman-4703449/
-Reindeer silhouette: Image by Clker-Free-Vector-Images from Pixabay  https://pixabay.com/vectors/reindeer-animal-pole-north-48519/
-
-questions
-https://wmo.asu.edu/content/world-lowest-temperature
-
-mock-up 
-https://techsini.com/multi-mockup/
+### others
+- Question about lowest temperature from [World Meteorological Organization's World Weather & Climate Extremes Archive](https://wmo.asu.edu/content/world-lowest-temperature)
+- Question about where penguins live from [Australian Antarctic Program](https://www.antarctica.gov.au/about-antarctica/animals/penguins/#:~:text=Penguins%20are%20only%20found%20in,live%20on%20sub%2DAntarctic%20islands.)
+- Question on danger of polar bears a from [azanimals](https://a-z-animals.com/blog/are-polar-bears-dangerous/)
+- Question on friendlyness of reindeer from [Reindeer Owners and Breeders Association ](https://reindeerowners.com/general-information-about-reindeer/#:~:text=Farm%20raised%20reindeer%20are%20curious,feed%20and%20train%20to%20pull.)
+- Question on meaning of arctic from [wikipedia](https://en.wikipedia.org/wiki/Arctic)
+- [Mock-up generator](https://techsini.com/multi-mockup/)
+- Martina Terlevic:  Code Institute Mentor.
