@@ -70,7 +70,7 @@ When you have pressed start you are presented with the question and possible ans
 ### Questions with direct feedback 
 When you have chosen an answer you get instant feedback on which answers are wrong and which are correct. Also, the next button appears to go to the next question. 
 
-<img src="assets/images/questionfeedbackjpg" alt="picture of answers with wrong and right symbols" width="600px">
+<img src="assets/images/questionfeedback.jpg" alt="picture of answers with wrong and right symbols" width="600px">
 
 
 ### Feedback en score
