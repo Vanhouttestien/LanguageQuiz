@@ -1,6 +1,6 @@
 # Arctic Quiz 
 
-With the current climate change the face of the artic is changing rapidly. This has a major impact on the flora and fauna. Small children don't know a lot about the artic. The Artic quiz was developed for children to improve their knowledge about the artic and stimulate their curiosity in a fun and interactive way. In this way we hope to contribute to the overall conscience of the people. 
+With the current climate change the face of the artic is changing rapidly. The arctic is hit hard and the impact of climate change on the local flora and fauna is huge. Small children don't know a lot about the artic. The Artic quiz was developed for children to improve their knowledge about the artic and stimulate their curiosity in a fun and interactive way. In this way we hope to contribute to the overall conscience of the people, by making the arctic more visible and improve knowledge. 
 
 
 <img src="assets/images/mockup.jpg" alt="Picture of webpage across different devices" width="600px">
@@ -22,10 +22,9 @@ With the current climate change the face of the artic is changing rapidly. This 
 - The user should receive direct feedback on the answer
 - The user should have the possiblity to restart the quiz and try to improve
 
-
 ### Design 
 
-For the design there was chosen for a colourful background with a more sober layout to balans it. This keeps it playful but also accesible.  
+For the design there was chosen for a colourful background with a more sober layout to balans it. This keeps it playful but also accesible at the same time.  
 
 1. Images
 
@@ -50,14 +49,14 @@ The font chosen is Arial and Helvetica as back-up. These fonts are easy to read 
 - Javascript
 
 ### Frameworks, Libraries & Programs Used
-- [font awesome](https://fontawesome.com/): all the icons on this webpage are from Font awesome
+- [font awesome](https://fontawesome.com/): the icon of the snowflakes is from Font awesome
 - Git: Git was use commit and push to github 
 - [GitPod](https://gitpod.io/): Gitpod was used as development environment 
 - [GitHub](https://github.com/): Github was used to deploy the site and store it  
 
 ## Features
 ### Instructions
-The first visible elements when you load the page is some explination. So you know what it is about.   
+The first visible elements when you load the page is some explination. So you know what it is about. And a big start button underneath it. 
 
 <img src="assets/images/startpage.jpg" alt="picture explenation box" width="600px">
 
@@ -165,6 +164,7 @@ The link can be found here: https://vanhouttestien.github.io/LanguageQuiz/
 - Reindeer silhouette: Image by Clker-Free-Vector-Images from [Pixabay](https://pixabay.com/vectors/reindeer-animal-pole-north-48519/)
 - wrong symbole: Image by OpenClipart-Vectors from [Pixabay](https://pixabay.com/vectors/abort-delete-no-cancel-locked-146096/) 
 - correct symbole:Image by OpenClipart-Vectors from [Pixabay](https://pixabay.com/vectors/check-mark-tick-mark-check-correct-1292787/)
+- Favicon and logo is from [fontawesome](https://fontawesome.com/)
 
 ### code 
 - The code used was taken from a [youtube tutorial from web dev simplified](https://www.youtube.com/watch?v=riDzcEQbX6k) with some adaptations

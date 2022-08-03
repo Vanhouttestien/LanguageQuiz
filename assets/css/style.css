@@ -43,9 +43,11 @@ i{
     vertical-align: middle;
 }
 
+/* reindeer silhouette*/
 #reindeer{
     height: 80px;
 }
+
 /* questions + answers and images */
 #question-container {
     margin: auto;
@@ -71,13 +73,14 @@ i{
     padding-bottom: 1%;
 }
 
+/* question*/
 #question {
     width: 100%;
     padding: 4%;
     font-weight: 900;
 }
 
-/* question*/
+/* answers*/
 #answer-buttons button {
     border: none;
     text-decoration: none;
@@ -89,6 +92,7 @@ i{
     text-align: left;
 }
 
+/* when you hover over button*/
 :hover.btn {
     font-weight: 700;
     text-decoration: line-through;
@@ -155,7 +159,6 @@ i{
 
 
 /*if answer is wrong*/
-
 .wrong {
     color: red;
     background-image: url('../images/abort-146096.png');
