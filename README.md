@@ -1,6 +1,6 @@
 # Arctic Quiz 
 
-With the current climate change the face of the artic is changing rapidly. The arctic is hit hard and the impact of climate change on the local flora and fauna is huge. Small children don't know a lot about the artic. The Artic quiz was developed for children to improve their knowledge about the artic and stimulate their curiosity in a fun and interactive way. In this way we hope to contribute to the overall conscience of the people, by making the arctic more visible and improve knowledge. 
+With the current climate change the face of the Artic is rapidly changing. The Arctic is being hit hard and the impacts of climate change on the local flora and fauna is huge. Small children don't know a lot about the artic. The Artic quiz was developed for children to improve their knowledge about the artic and stimulate their curiosity in a fun and interactive way. In this way we hope to contribute to the overall conscience of the people, by making the arctic more visible and improve knowledge. 
 
 
 <img src="assets/images/mockup.jpg" alt="Picture of webpage across different devices" width="600px">
@@ -15,8 +15,8 @@ With the current climate change the face of the artic is changing rapidly. The a
 
 ## User Experience (UX)
 ### User stories
-#### Visitor Goals
-- The main goal is to provide the users more information about the arctic
+#### Visitor goals
+- The main goal is to provide the users with more information about the Arctic
 - The user should have good insight in the content when viewing the startpage
 - The user should have an intutive and easy accesible buttons to start the quiz
 - The user should receive direct feedback on the answer
@@ -35,12 +35,12 @@ Some questions are accompagnied by images as part of the question or for decorat
 
 2. Colour Scheme
 
-Beacuse of the colourful backgroundimage the other parts of the design where kept simple. The colours black and white where chosen for this. They also provide optimal accesibilty. 
+Beacuse of the colourful background image the other parts of the design where kept simple. The colours black and white where chosen for this. They also provide optimal accesibilty. 
 
 
 3. Typography
 
-The font chosen is Arial and Helvetica as back-up. These fonts are easy to read and provide good accesibility. They are also simple in design and provide a more sober contrast to the colorful backgroundimage. 
+The font chosen is Arial and Helvetica as back-up. These fonts are easy to read and provide good accesibility. They are also simple in design and provide a more sober contrast to the colorful background image. 
 
 ## Technologies used 
 ### languages
@@ -56,19 +56,19 @@ The font chosen is Arial and Helvetica as back-up. These fonts are easy to read 
 
 ## Features
 ### Instructions
-The first visible elements when you load the page is some explination. So you know what it is about. And a big start button underneath it. 
+The first visible elements when you load the page are some explinations, so you know what it is about. A big start button is underneath it. 
 
 <img src="assets/images/startpage.jpg" alt="picture explenation box" width="600px">
 
 
 ### Questions
-When you have pressed start you are presented with the question and possible answers. Some questions are accompagnied with a image on the right (or underneath on a smaller device). 
+When you have pressed start you are presented with the question and possible answers. Some questions are accompagnied with a image to the right (or underneath on smaller devices). 
 
 <img src="assets/images/question.jpg" alt="picture question" width="600px">
 
 
 ### Questions with direct feedback 
-When you have chosen a answer you get instant feedback wich answers are wrong and wich correct. Also the next button appears to go to the next question. 
+When you have chosen an answer you get instant feedback on which answers are wrong and which are correct. Also, the next button appears to go to the next question. 
 
 <img src="assets/images/questionfeedbackjpg" alt="picture of answers with wrong and right symbols" width="600px">
 
@@ -87,8 +87,8 @@ In this box the score is presented with some short feedback.
 |Goal| execution|
 |--------------------------------------------------------------------------------------|-------------------------------------------------------|
 |The users should learn more about the arctic| The questions provide some information|
-|The user should have good insight in the content when viewing the startpage| Established with instuctionbox and backgroundimage|
-|The user should have an intutive and easy accesible buttons to start the quiz| Big start and next bottun that are easily visible |
+|The user should have good insight in the content when viewing the startpage| Established with instuctions box and background image|
+|The user should have an intutive and easy accesible buttons to start the quiz| Big start and next button that are easily visible |
 |The user should receive direct feedback on the answer| Direct right and wrong symbols appear when you clicked your answer |
 |The user should have the possiblity to restart the quiz and try to improve| Restart button and questions are randomized|
  
@@ -133,8 +133,8 @@ Website was succesful in the lighthouse testing
 <img src="assets/images/lighthouseval.jpg" alt="picture of Jigsaw validator results" width="600px">
 
 ### Fixed bugs 
-- The right and wrong images where to big when the answer had more lines because they are implemented by using them as background. This was especially problematic on smaller devices. The symbols came above the text. Fixed by fixing the background size to 28px.   
-- Backgroundimage didn't cover the whole page. this was solved by adding a min-height of 100vh and hide the overflow. 
+- The right and wrong images where to big when the answer had more lines because they are implemented by using them as background. This was especially problematic on smaller devices. The symbols came above the text. Fixed by adapting the background size to 28px.   
+- Background image didn't cover the whole page. this was solved by adding a min-height of 100vh and hide the overflow. 
 
 ### Unfixed bugs
 - by fixing the measurements of the right and wrong symbol they sometimes are a bit to high up. 
